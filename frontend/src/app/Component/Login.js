@@ -85,6 +85,8 @@ const LoginForm = () => {
                   value={credentials.email}
                   onChange={onChange}
                   placeholder="Enter your email"
+                  className="bg-white text-black"
+
                 />
               </div>
               <div >
@@ -96,6 +98,8 @@ const LoginForm = () => {
                   value={credentials.password}
                   onChange={onChange}
                   placeholder="Enter your password"
+                  className="bg-white text-black"
+
                 />
               </div>
             </div>

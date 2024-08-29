@@ -72,6 +72,7 @@ const RegisterForm = () => {
                 value={credentials.name}
                 onChange={onChange}
                 placeholder="Your name"
+                className="bg-white text-black"
               />
             </div>
             <div className="space-y-1.5">
@@ -82,6 +83,8 @@ const RegisterForm = () => {
                 value={credentials.email}
                 onChange={onChange}
                 placeholder="Your email"
+                className="bg-white text-black"
+
               />
             </div>
             <div className="space-y-1.5">
@@ -93,6 +96,8 @@ const RegisterForm = () => {
                 value={credentials.password}
                 onChange={onChange}
                 placeholder="Your password"
+                className="bg-white text-black"
+
               />
             </div>
           
